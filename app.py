@@ -79,7 +79,7 @@ for nom_file in association:
     dataset[i, 2]="./data/association/"+nom_file
     File.close()
 
-req =""
+req = ""
 @app.route('/postPaths' ,methods=['POST'])
 def postPaths():
     #req= "tunisie"

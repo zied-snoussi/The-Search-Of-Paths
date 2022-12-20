@@ -1,6 +1,6 @@
 # The-Search-Of-Paths
 
-## Backend with Flusk
+## Backend with Flask
 
 ## FrontEnd with ReactJS
 

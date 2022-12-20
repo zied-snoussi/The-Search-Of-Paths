@@ -14,14 +14,17 @@ body{
 input{
     width: 400px;
     height: 60px;
-    background-color: aquamarine;
+    background-color: #6b0152;
     border-radius: 20px;
     text-align: center;
     font-size: 40px;
+    border: 0px;
+    opacity: 80%;
+    color: white;
 }
 h1 {
     background-color: blanchedalmond;
-    padding: 10px 80px;
+    padding: 10px 100px;
     border-radius: 20px;
     margin: 10px;
     font-size: 60px;
@@ -29,12 +32,24 @@ h1 {
     opacity: 50%;
 }
 
+h1:hover {
+    background-color: rgb(1, 1, 59);
+    padding: 400px 100px;
+    border-radius: 20px;
+    margin: 0px;
+    font-size: 60px;
+    color: blanchedalmond;
+    opacity: 50%;
+    position: absolute;
+}
+
 .search {
     width: 10%;
 }
 
 .result{
-    background-color: blanchedalmond;
+    color: white;
+    background-color: #211504;
     padding: 10px 100px;
     border-radius: 10px;
     opacity: 80%;
@@ -43,34 +58,26 @@ h1 {
 }
 
 .btnPost{
-    margin-right: 10px;
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    padding: 10px 20px;
-    background-color: green;
-    border-radius: 20px;
-    font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
-}
-
-.btnGet{
     margin-left: 10px;
     width: auto;
     height: auto;
     font-size: 30px;
     padding: 10px 20px;
-    background-color: #0430d2;
+    background-color: #708570;
+    opacity: 80%;
     border-radius: 20px;
     font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
 }
+
 button:hover{
     background-color: red;
+    opacity: 60%;
     color: white;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 input:hover{
-    background-color: #af0899;
+    background-color: #b00460;
     color: white;
     font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif
 }

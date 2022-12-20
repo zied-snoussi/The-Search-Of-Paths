@@ -28,8 +28,8 @@ function App() {
 
   return (
     <div className="App">
-            <h1>The Search of Paths</h1>
-              <input
+        <h1>The Search of Paths</h1>
+        <input
                   placeholder="Add your text"
                   type="text"
                   value={inputText}
@@ -39,14 +39,14 @@ function App() {
                   fullWidth
                   label="Search"
                   name="inputText"
-               />
-        <div className="groupButton">
-              <button className="btnPost" onClick={postData}>
+                  onChangeCapture={postData}
+        /><button className="btnPost"  onClickCapture={getData}>
                   <i className="fas fa-search">Search</i>
               </button>
-              <button className="btnGet" onClick={getData}>
+        <div className="groupButton">
+            {/*<button className="btnGet" onClick={getData}>
                   <i className="fas fa-search">Result</i>
-              </button>
+              </button>*/}
         </div>
         <div className="result">
            <ul>

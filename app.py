@@ -8,8 +8,6 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-#nltk.download('punkt')
-#nltk.download('stopwords')
 stemmer = FrenchStemmer()
 ######################Ouverture de documents######################
 dataset = np.zeros((6,3), dtype=object)
@@ -82,8 +80,6 @@ for nom_file in association:
 req = ""
 @app.route('/postPaths' ,methods=['POST'])
 def postPaths():
-    #req= "tunisie"
-    #if request.method == "POST":
     global req
     req = request.json["inputText"]
     return req
